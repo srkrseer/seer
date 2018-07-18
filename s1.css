@@ -1,0 +1,45 @@
+.parent
+{
+display:flex;
+flex-direction: row;
+background-color: skyblue;
+border:3px solid red;
+width:100%;
+font-size: 25px;
+}
+.child1
+{
+    border: 3px solid blue;
+    width:20%;
+    padding: 2%;
+    margin:2%;
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+@media only screen and (min-width:761px) and (max-width:1024px){
+
+.parent
+{
+display:flex;
+flex-direction: column;
+background-color: skyblue;
+border:3px solid red;
+font-size: 25px;
+width:100%;
+}
+.child1
+{
+    border: 3px solid blue;
+    width:50%;
+    background-color: purple;
+    font-size: 15px;
+
+}
+
+}
